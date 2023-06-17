@@ -1,0 +1,25 @@
+version: "3"
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - internal
+    volumes:
+      - ./app/:/var/www/html 
+      - ./logs/nginx:/var/log/nginx/
+  php:
+    build:
+      context: .
+      dockerfile: php/Dockerfile
+    networks:
+      - internal
+    volumes:
+      - ./app/:/var/www/html
+      - ./xdebug/:/usr/local/etc/php/conf.d
+networks:
+  internal:
+    driver: bridge

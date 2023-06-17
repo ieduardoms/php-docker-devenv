@@ -1,0 +1,188 @@
+2023/06/13 13:21:00 [notice] 1#1: using the "epoll" event method
+2023/06/13 13:21:00 [notice] 1#1: nginx/1.25.0
+2023/06/13 13:21:00 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/13 13:21:00 [notice] 1#1: OS: Linux 5.19.0-43-generic
+2023/06/13 13:21:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/13 13:21:00 [notice] 1#1: start worker processes
+2023/06/13 13:21:00 [notice] 1#1: start worker process 29
+2023/06/13 13:21:00 [notice] 1#1: start worker process 30
+2023/06/13 13:21:00 [notice] 1#1: start worker process 31
+2023/06/13 13:21:00 [notice] 1#1: start worker process 32
+2023/06/13 13:21:57 [error] 32#32: *2 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:22:00 [error] 31#31: *4 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:22:01 [error] 30#30: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:22:01 [error] 29#29: *8 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:23:29 [error] 29#29: *15 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:23:37 [error] 29#29: *17 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/"
+2023/06/13 13:23:39 [error] 29#29: *19 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/"
+2023/06/13 13:29:01 [error] 29#29: *24 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:29:14 [error] 29#29: *27 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:29:15 [error] 29#29: *29 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:29:18 [error] 29#29: *31 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:30:56 [error] 29#29: *38 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:30:56 [error] 29#29: *40 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/13 13:31:38 [error] 29#29: *44 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.php"
+2023/06/13 13:31:39 [error] 29#29: *46 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.php"
+2023/06/13 13:31:39 [error] 32#32: *48 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.php"
+2023/06/13 13:34:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/13 13:34:31 [notice] 29#29: gracefully shutting down
+2023/06/13 13:34:31 [notice] 32#32: gracefully shutting down
+2023/06/13 13:34:31 [notice] 31#31: gracefully shutting down
+2023/06/13 13:34:31 [notice] 30#30: gracefully shutting down
+2023/06/13 13:34:31 [notice] 29#29: exiting
+2023/06/13 13:34:31 [notice] 32#32: exiting
+2023/06/13 13:34:31 [notice] 31#31: exiting
+2023/06/13 13:34:31 [notice] 30#30: exiting
+2023/06/13 13:34:31 [notice] 29#29: exit
+2023/06/13 13:34:31 [notice] 30#30: exit
+2023/06/13 13:34:31 [notice] 31#31: exit
+2023/06/13 13:34:31 [notice] 32#32: exit
+2023/06/13 13:34:31 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/06/13 13:34:31 [notice] 1#1: worker process 30 exited with code 0
+2023/06/13 13:34:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/13 13:34:31 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/06/13 13:34:31 [notice] 1#1: worker process 31 exited with code 0
+2023/06/13 13:34:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/13 13:34:31 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/06/13 13:34:31 [notice] 1#1: worker process 32 exited with code 0
+2023/06/13 13:34:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/13 13:34:31 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/06/13 13:34:31 [notice] 1#1: worker process 29 exited with code 0
+2023/06/13 13:34:31 [notice] 1#1: exit
+2023/06/13 13:35:00 [notice] 1#1: using the "epoll" event method
+2023/06/13 13:35:00 [notice] 1#1: nginx/1.25.0
+2023/06/13 13:35:00 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/13 13:35:00 [notice] 1#1: OS: Linux 5.19.0-43-generic
+2023/06/13 13:35:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/13 13:35:00 [notice] 1#1: start worker processes
+2023/06/13 13:35:00 [notice] 1#1: start worker process 30
+2023/06/13 13:35:00 [notice] 1#1: start worker process 31
+2023/06/13 13:35:00 [notice] 1#1: start worker process 32
+2023/06/13 13:35:00 [notice] 1#1: start worker process 33
+2023/06/13 13:37:52 [error] 31#31: *3 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.php"
+2023/06/13 13:38:35 [error] 32#32: *7 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.php"
+2023/06/13 13:44:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/13 13:44:06 [notice] 33#33: gracefully shutting down
+2023/06/13 13:44:06 [notice] 33#33: exiting
+2023/06/13 13:44:06 [notice] 33#33: exit
+2023/06/13 13:44:06 [notice] 30#30: gracefully shutting down
+2023/06/13 13:44:06 [notice] 30#30: exiting
+2023/06/13 13:44:06 [notice] 30#30: exit
+2023/06/13 13:44:06 [notice] 32#32: gracefully shutting down
+2023/06/13 13:44:06 [notice] 32#32: exiting
+2023/06/13 13:44:06 [notice] 32#32: exit
+2023/06/13 13:44:06 [notice] 31#31: gracefully shutting down
+2023/06/13 13:44:06 [notice] 31#31: exiting
+2023/06/13 13:44:06 [notice] 31#31: exit
+2023/06/13 13:44:06 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/06/13 13:44:06 [notice] 1#1: worker process 33 exited with code 0
+2023/06/13 13:44:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/13 13:44:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/06/13 13:44:06 [notice] 1#1: worker process 30 exited with code 0
+2023/06/13 13:44:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/13 13:44:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/06/13 13:44:06 [notice] 1#1: worker process 31 exited with code 0
+2023/06/13 13:44:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/13 13:44:06 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/06/13 13:44:06 [notice] 1#1: worker process 32 exited with code 0
+2023/06/13 13:44:06 [notice] 1#1: exit
+2023/06/13 13:44:33 [notice] 1#1: using the "epoll" event method
+2023/06/13 13:44:33 [notice] 1#1: nginx/1.25.0
+2023/06/13 13:44:33 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/13 13:44:33 [notice] 1#1: OS: Linux 5.19.0-43-generic
+2023/06/13 13:44:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/13 13:44:33 [notice] 1#1: start worker processes
+2023/06/13 13:44:33 [notice] 1#1: start worker process 29
+2023/06/13 13:44:33 [notice] 1#1: start worker process 30
+2023/06/13 13:44:33 [notice] 1#1: start worker process 31
+2023/06/13 13:44:33 [notice] 1#1: start worker process 32
+2023/06/13 13:45:01 [error] 30#30: *3 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.php"
+2023/06/13 13:45:02 [error] 32#32: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.26.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/index.php"
+2023/06/13 13:45:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/13 13:45:17 [notice] 29#29: gracefully shutting down
+2023/06/13 13:45:17 [notice] 29#29: exiting
+2023/06/13 13:45:17 [notice] 29#29: exit
+2023/06/13 13:45:17 [notice] 31#31: gracefully shutting down
+2023/06/13 13:45:17 [notice] 31#31: exiting
+2023/06/13 13:45:17 [notice] 31#31: exit
+2023/06/13 13:45:17 [notice] 30#30: gracefully shutting down
+2023/06/13 13:45:17 [notice] 30#30: exiting
+2023/06/13 13:45:17 [notice] 32#32: gracefully shutting down
+2023/06/13 13:45:17 [notice] 32#32: exiting
+2023/06/13 13:45:17 [notice] 32#32: exit
+2023/06/13 13:45:17 [notice] 30#30: exit
+2023/06/13 13:45:17 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/06/13 13:45:17 [notice] 1#1: worker process 29 exited with code 0
+2023/06/13 13:45:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/13 13:45:17 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/06/13 13:45:17 [notice] 1#1: worker process 31 exited with code 0
+2023/06/13 13:45:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/13 13:45:17 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/06/13 13:45:17 [notice] 1#1: worker process 30 exited with code 0
+2023/06/13 13:45:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/13 13:45:17 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/06/13 13:45:17 [notice] 1#1: worker process 32 exited with code 0
+2023/06/13 13:45:17 [notice] 1#1: exit
+2023/06/17 02:15:21 [notice] 1#1: using the "epoll" event method
+2023/06/17 02:15:21 [notice] 1#1: nginx/1.25.0
+2023/06/17 02:15:21 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 02:15:21 [notice] 1#1: OS: Linux 5.19.0-43-generic
+2023/06/17 02:15:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 02:15:21 [notice] 1#1: start worker processes
+2023/06/17 02:15:21 [notice] 1#1: start worker process 28
+2023/06/17 02:15:21 [notice] 1#1: start worker process 29
+2023/06/17 02:15:21 [notice] 1#1: start worker process 30
+2023/06/17 02:15:21 [notice] 1#1: start worker process 31
+2023/06/17 02:15:44 [error] 28#28: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.29.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.2:9000", host: "localhost:8080"
+2023/06/17 02:15:44 [error] 28#28: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/17 02:15:45 [error] 29#29: *3 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.29.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.2:9000", host: "localhost:8080"
+2023/06/17 02:15:45 [error] 29#29: *3 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/17 02:15:45 [error] 31#31: *5 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.29.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.2:9000", host: "localhost:8080"
+2023/06/17 02:15:46 [error] 31#31: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/17 02:15:46 [error] 30#30: *7 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.29.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.2:9000", host: "localhost:8080"
+2023/06/17 02:15:46 [error] 30#30: *7 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/17 02:27:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/17 02:27:21 [notice] 29#29: gracefully shutting down
+2023/06/17 02:27:21 [notice] 31#31: gracefully shutting down
+2023/06/17 02:27:21 [notice] 29#29: exiting
+2023/06/17 02:27:21 [notice] 31#31: exiting
+2023/06/17 02:27:21 [notice] 31#31: exit
+2023/06/17 02:27:21 [notice] 29#29: exit
+2023/06/17 02:27:21 [notice] 28#28: gracefully shutting down
+2023/06/17 02:27:21 [notice] 28#28: exiting
+2023/06/17 02:27:21 [notice] 28#28: exit
+2023/06/17 02:27:21 [notice] 30#30: gracefully shutting down
+2023/06/17 02:27:21 [notice] 30#30: exiting
+2023/06/17 02:27:21 [notice] 30#30: exit
+2023/06/17 02:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/06/17 02:27:21 [notice] 1#1: worker process 29 exited with code 0
+2023/06/17 02:27:21 [notice] 1#1: worker process 30 exited with code 0
+2023/06/17 02:27:21 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 02:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/06/17 02:27:21 [notice] 1#1: worker process 31 exited with code 0
+2023/06/17 02:27:21 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/17 02:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/06/17 02:27:21 [notice] 1#1: worker process 28 exited with code 0
+2023/06/17 02:27:21 [notice] 1#1: exit
+2023/06/17 02:28:00 [notice] 1#1: using the "epoll" event method
+2023/06/17 02:28:00 [notice] 1#1: nginx/1.25.0
+2023/06/17 02:28:00 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r4) 
+2023/06/17 02:28:00 [notice] 1#1: OS: Linux 5.19.0-43-generic
+2023/06/17 02:28:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/17 02:28:00 [notice] 1#1: start worker processes
+2023/06/17 02:28:00 [notice] 1#1: start worker process 29
+2023/06/17 02:28:00 [notice] 1#1: start worker process 30
+2023/06/17 02:28:00 [notice] 1#1: start worker process 31
+2023/06/17 02:28:00 [notice] 1#1: start worker process 32
+2023/06/17 02:28:12 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.30.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost:8080"
+2023/06/17 02:28:16 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.30.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost:8080"
+2023/06/17 02:28:18 [error] 32#32: *4 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.30.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost:8080"
+2023/06/17 02:28:18 [error] 32#32: *4 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/17 02:28:19 [error] 30#30: *6 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.30.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost:8080"
+2023/06/17 02:28:19 [error] 30#30: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/17 02:28:40 [error] 29#29: *8 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.30.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost:8080"
+2023/06/17 02:28:40 [error] 29#29: *8 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/17 02:28:41 [error] 31#31: *10 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.30.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost:8080"
+2023/06/17 02:28:41 [error] 31#31: *10 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/06/17 02:37:32 [error] 31#31: *12 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port)" while reading response header from upstream, client: 172.30.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost:8080"
+2023/06/17 02:37:32 [error] 31#31: *12 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.30.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
