@@ -1,0 +1,83 @@
+Listening on { address: '::', family: 'IPv6', port: 9003 }
+<- launchResponse
+Response { seq: 0, type: 'response', request_seq: 2, command: 'launch', success: true }
+<- initializedEvent
+InitializedEvent { seq: 0, type: 'event', event: 'initialized' }
+-> setBreakpointsRequest
+{ command: 'setBreakpoints',
+  arguments:
+   { source:
+      { name: 'index.php',
+        path: '/home/eduardo/ProgGene/Test/docker/nginxmaros/app/index.php' },
+     lines: [ 12 ],
+     breakpoints: [ { line: 12 } ],
+     sourceModified: false },
+  type: 'request',
+  seq: 3 }
+<- setBreakpointsResponse
+Response {
+  seq: 0,
+  type: 'response',
+  request_seq: 3,
+  command: 'setBreakpoints',
+  success: true,
+  body:
+   { breakpoints:
+      [ { verified: true,
+          line: 12,
+          source:
+           { name: 'index.php',
+             path: '/home/eduardo/ProgGene/Test/docker/nginxmaros/app/index.php' },
+          id: 1 } ] } }
+-> setFunctionBreakpointsRequest
+{ command: 'setFunctionBreakpoints',
+  arguments: { breakpoints: [] },
+  type: 'request',
+  seq: 4 }
+<- setFunctionBreakpointsResponse
+Response {
+  seq: 0,
+  type: 'response',
+  request_seq: 4,
+  command: 'setFunctionBreakpoints',
+  success: true,
+  body: { breakpoints: [] } }
+-> setExceptionBreakpointsRequest
+{ command: 'setExceptionBreakpoints',
+  arguments: { filters: [] },
+  type: 'request',
+  seq: 5 }
+<- setExceptionBreakpointsResponse
+Response {
+  seq: 0,
+  type: 'response',
+  request_seq: 5,
+  command: 'setExceptionBreakpoints',
+  success: true,
+  body: { breakpoints: [] } }
+-> configurationDoneRequest
+{ command: 'configurationDone', type: 'request', seq: 6 }
+<- configurationDoneResponse
+Response {
+  seq: 0,
+  type: 'response',
+  request_seq: 6,
+  command: 'configurationDone',
+  success: true }
+-> threadsRequest
+{ command: 'threads', type: 'request', seq: 7 }
+<- threadsResponse
+Response {
+  seq: 0,
+  type: 'response',
+  request_seq: 7,
+  command: 'threads',
+  success: true,
+  body: { threads: [] } }
+-> disconnectRequest
+{ command: 'disconnect',
+  arguments: { restart: false, terminateDebuggee: true },
+  type: 'request',
+  seq: 8 }
+<- disconnectResponse
+Response { seq: 0, type: 'response', request_seq: 8, command: 'disconnect', success: true }
